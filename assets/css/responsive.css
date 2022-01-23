@@ -1,0 +1,93 @@
+@media(max-width: 576px){
+    /* Background Part Start */
+    .background-part.bg_part2{
+        padding-left: 0px !important;
+    }
+    .bg-con-main h5{
+        font-size: 50px !important;
+        font-weight: 600 !important;
+    }
+    .bg-con-main p{
+        font-size: 13px !important;
+    }
+    .call{
+        padding-left: 70px !important;
+    }
+    .bg-icon i{
+        padding-left: 140px !important;
+    }
+    /* Background Part End */
+    /* Service Part Start */
+    .service-con.con2{
+        padding-left: 25px !important;
+    }
+    /* Service Part End */
+    /* Portfolio Part Start */
+    .port-header.ph2 h5{
+        font-size: 20px !important;
+    }
+    /* Portfolio Part End */
+    /* Form Part Start */
+    .form-control {
+        width: 290px !important;
+      }
+      .form-check-label {
+        font-size: 13px !important;
+      }
+      .Send {
+        margin-left: 30px !important;
+      }
+    /* Form Part End */
+    /* Footer Part Start */
+    .footer-con-main{
+        padding-left: 41px;
+    }
+    .footer-content p {
+        display: none;
+      }
+    /* Footer Part End */
+}
+@media(max-width: 768px){
+    /* Portfolio Part Start */
+    .port-header h5{
+        font-size: 25px !important;
+    }
+    /* Portfolio Part End */
+}
+@media(max-width: 992px){
+    /* Simple part Start */
+    .simple-content.content2 p{
+        padding: 0 0px!important;
+    }
+    /* Simple part End */
+    /* Form Part Start */
+    .form-con{
+        padding-left: 0 !important;
+    }
+    .form-header {
+        padding-left: 45px !important;
+      }
+    /* Form Part End */
+}
+@media(max-width: 1200px){
+    /* Background Part Start */
+    .background-part{
+        padding-left: 80px !important;
+        padding-right: 0 !important;
+    }
+    /* Background Part End */
+    /* Service Part Start */
+    .service-content p{
+        padding-right: 0px !important;
+        font-size: 13px !important;
+    }
+    .service-content h5{
+        font-size: 16px !important;
+    }
+    /* Service Part End */
+    /* Footer Part Start */
+    .footer-icon {
+        padding-left: 0px !important;
+      }
+    /* Footer Part End */
+}

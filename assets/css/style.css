@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Nav Bar Part Start */
+.navbar-light .navbar-nav .nav-link.active{
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+/* Nav Bar Part End */
+/* Background Part Start */
+.background-part{
+    background-image: url("../img/bgimg/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 160px 460px;
+    padding-bottom: 20px;
+}
+.bg-con-main h5{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    padding-left: 65px;
+    border-bottom: 1px solid #15a3f9;
+    font-weight: 600;
+}
+.bg-con-main p{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.call{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+.call a{
+    text-decoration: none;
+}
+.call a p{
+    padding: 14px 35px;
+    background: transparent;
+    border: 1px solid #15a3f9;
+    width: 165px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.bg-icon i{
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 230px;
+    padding-top: 170px;
+}
+/* Background Part End */
+/* Simple Part Start */
+.simple-part{
+    background: #f5f9f9;
+}
+.simple-content{
+    padding: 70px 0;
+}
+.simple-content h5{
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.simple-content p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 240px;
+    word-spacing: 3px;
+}
+/* Simple Part End */
+/* Service Part Start */
+.service-con-main{
+    background: #ffffff;
+    padding: 45px 0;
+}
+.service-con{
+    padding-left: 60px;
+}
+.service-icon img{
+    padding-left: 66px;
+} 
+.service-content h5{
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+.service-content p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 80px;
+    text-align: center;
+}
+/* Service Part End */
+/* PortFolio Part Start */
+.portfolio-part{
+    background: #f5f9f9;
+    padding-bottom: 70px;
+}
+.port-header{
+    text-align: center;
+    padding: 50px 0;
+}
+.port-header h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #2d3950;
+}
+.port-header p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #909090;
+}
+.port-con{
+    position: relative;
+}
+.port-icon{
+    background: rgba(43, 171, 246, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.port-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port-icon i{
+    background: transparent;
+    padding: 15px;
+    margin-left: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+.port-con:hover .port-icon{
+    opacity: 1;
+}
+/* PortFolio Part End */
+/* Form Part Start */
+.form-part{
+    background-image: url("../img/formimg/1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+}
+.form-header{
+    padding-left: 470px;
+}
+.form-header h5{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+.form-header p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.form-control{
+    background: transparent;
+    width: 375px;
+}
+.form-con{
+    padding-left: 400px;
+}
+.form-floating>label{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.form-check-label{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.form-check-input{
+    margin-top: 13px;
+}
+.Send{
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 7px 35px;
+    margin-left: 100px;
+    border: 1px solid #15a3f9;
+}
+/* Form Part End */
+/* Footer Part Start */
+.footer-part{
+    padding: 15px 0;
+    padding-bottom: 5px;
+}
+.footer-content p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.footer-icon{
+    padding-left: 300px;
+}
+.footer-icon i{
+    background: #15a3f9;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 2px;
+}
+/* Footer Part End */
